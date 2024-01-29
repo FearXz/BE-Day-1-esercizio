@@ -11,13 +11,18 @@ namespace Esercizio1 {
 
             Atleta atleta1 = new Atleta("Pippo", "Franco", 32, "Strongman");
             atleta1.showAtleta();
+
             Dipendente dipendente1 = new Dipendente("paperino", "pluto", 22, "logistica");
             dipendente1.showDipendente();
+
             Animale animale1 = new Animale("Rettile", "Coccodrillo", 8);
             animale1.showAnimale();
+
             Veicolo veicolo1 = new Veicolo("Lamborghini", "xxxAntoxxx");
             veicolo1.showVeicolo();
+
         }
     }
 }
 
+ 
