@@ -1,9 +1,10 @@
 ﻿using esercizio_1_classe_Atleta;
-using esercizio_1_classi_Dipendente;
 using esercizio_1_classi_Animale;
+using esercizio_1_classi_Dipendente;
 using esercizio_1_classi_Veicolo;
 
-namespace Esercizio1 {
+namespace Esercizio1
+{
     class Program
     {
         static void Main(string[] args)
@@ -11,6 +12,8 @@ namespace Esercizio1 {
 
             Atleta atleta1 = new Atleta("Pippo", "Franco", 32, "Strongman");
             atleta1.showAtleta();
+
+
 
             Dipendente dipendente1 = new Dipendente("paperino", "pluto", 22, "logistica");
             dipendente1.showDipendente();
@@ -25,4 +28,3 @@ namespace Esercizio1 {
     }
 }
 
- 
